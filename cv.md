@@ -7,18 +7,18 @@
     * **City:** Minsk
     * **tel.:** +375293474836
     * **mail:**  newm9yy2020@gmail.com
-3. **About me:**
+3. **About me:** Hello. My name is Sergey. I am from the city of Minsk. I want to study at RS School and change my profession to a frontend developer
 4. **Skills:**
     * **HTML** - basic level
     * **CSS** - basic level
     * **JavaScript** - basic level
 5. **Code examples:** 
 ```
-function count(array){
-  let result = {};
-  array.forEach(elem => {!result[elem] ? result[elem] =1 : result[elem] +=1;  })
-  return result;
-}
+const findSquares = num => {
+let min = Math.pow(((num-1)/2),2)
+let max = Math.pow((((num-1)/2))+1,2)
+return `${max}-${min}`
+};
 ```
 6. **Work experience:** I don't have any work experience in IT
 7. **Education:** BELARUS STATE ECONOMIC UNIVERSITY 
