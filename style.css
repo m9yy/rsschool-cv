@@ -20,6 +20,10 @@ main {
    
 }
 
+ul{
+    list-style: none;
+}
+
 .right {
     width: 35%;
     height: 91vh;
