@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+}
+
+body {
+    padding-top: 15px;
+    max-width: 920px;
+    margin: auto;
+    background-color: #ECE8E8;
+    margin-bottom: 10px;
+}
+
+main {
+   display: flex;
+   
+}
+
+ul{
+    list-style: none;
+}
+
+.right {
+    width: 35%;
+    height: 91vh;
+    background: linear-gradient(to top, #f0d333, #e39b37); 
+}
+
+.left {
+    width: 65%;
+    height: 91vh;
+    background-color: white
+}
+
+.photo {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 100%;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+.name {
+    position: relative;
+    margin-top: 130px;
+    margin-left: 420px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    background-color: #f0d333 ;
+}
+
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+}
+
+.logo-rs {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+.time-text {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+    margin-top: 400px;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    border-bottom: solid 1px rgb(185, 192, 198);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content1 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.content2 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
