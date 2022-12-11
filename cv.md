@@ -13,4 +13,11 @@ let min = Math.pow(((num-1)/2),2)
 let max = Math.pow((((num-1)/2))+1,2)
 return `${max}-${min}`
 };
-6. 
+6. Work experience:
+I don't have any work experience in IT
+7. Education:
+BELARUS STATE ECONOMIC UNIVERSITY
+The Faculty of Commerce and Tourism Industry
+8. LANGUAGES
+Russian - Native
+English - A1
