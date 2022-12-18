@@ -1,0 +1,272 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 auto;
+ 
+}
+
+
+.wrap_main {
+  background: #FFFFFF;
+  border: 0px solid #D6D6D6;
+  width: 700px;
+  height: 800px;
+}
+
+.wrap_header {
+  background: #FFFFFF;
+  width: 700px;
+  height: 50px;
+  border-radius: 35px 35px 0px 0px;
+  border: 0px solid #D6D6D6;
+  margin-top: 30px;
+}
+
+.name {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo {
+  border-radius: 100px;
+  
+  
+}
+
+li {
+  list-style-type: none; 
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.li_html {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.li_html::before {
+  content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: url(./icons8-html-5-16.png)
+}
+
+.li_css {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.li_css::before {
+  content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: url(./icons8-css3-16.png)
+}
+
+.li_js {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.li_js::before {
+  content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: url(./icons8-javascript-16.png)
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.a_tel:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    background: url(./icons8-добавить-телефон-16.png)
+}
+
+.a_mail:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(./icons8-почта-16.png)
+}
+
+.a_git:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  background: url(./icons8-github-16.png)
+}
+
+.about {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 500px;
+  height: 150px;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cont-skil {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  
+  width: 500px;
+  height: 150px;
+}
+
+.cont {
+  
+  width: 250px;
+  height: 150px;
+}
+
+.skills {
+  width: 250px;
+  height: 150px;
+}
+
+.educ {
+  width: 250px;
+  height: 150px;
+}
+
+.lung {
+  width: 250px;
+  height: 150px;
+}
+
+
+.wrapper_footer {
+  display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  margin: 0 auto;
+  width: 700px;
+  height: 50px;
+  border-radius: 0px 0px 35px 35px;
+  border: 0px solid red;
+  background: #FFFFFF;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.fio {
+
+}
+
+.fam {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.im {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  color: #000000;
+  font-weight: 100;
+}
+
+.stud {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  margin-top: 93px;
+}
+
+.info {
+  margin-top: 15px;
+}
+
+.ul_cont {
+  margin-top: 15px;
+}
+
+li a:hover {
+  color: #ffe; 
+  background-color: #5488af; 
+  border-radius: 560px;
+}
+
+.ul_skil {
+  margin-top: 15px;
+}
+
+h3, h4, h5, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
