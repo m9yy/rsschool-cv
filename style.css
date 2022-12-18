@@ -265,3 +265,8 @@ li a:hover {
 h3, h4, h5, p {
   font-family: 'Open Sans', sans-serif;
 }
+
+.logo {
+  width: 32px;
+  height: 32px;
+}
